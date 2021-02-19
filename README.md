@@ -5,3 +5,8 @@
 # minecraft-forge-server
 
 Simple Dockerfile to deploy Minecraft Forge server MC 1.12.2
+
+## Usage
+```
+docker build . -t minecraft_rlc && docker run -d -p 25565:25565 minecraft_rlc
+```
